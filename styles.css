@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: crimson;
+  height: 64px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title p {
+  width: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 8px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4rem;
+}
+
+.menus ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.menus li {
+  padding: 10px;
+  margin-top: 14px;
+  margin-right: 12px;
+}
+
+.menus a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menus {
+  margin-left: 750px;
+}
+
+.faq {
+}
+
+.faq button {
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.faq p {
+  outline: none;
+  padding: 10px;
+  display: none;
+}
+
+.faq button:hover {
+  cursor: pointer;
+  background-color: crimson;
+}
+
+.faq p.active {
+  display: flex;
+}
+
+.slideshow {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+}
+
+.buttons a {
+  padding: 10px;
+  color: white;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.buttons {
+  padding: 0px;
+  margin-top: 15px;
+  margin-right: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+.buttons button {
+  padding: 10px;
+  background-color: white;
+  color: crimson;
+  border: none;
+  border-radius: 10px;
+}
+
+.main-text {
+  position: absolute;
+  top: 20%;
+  padding: 10px;
+  margin-left: 20px;
+}
+.main-sub-text {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.main-main-text {
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  width: 50%;
+  color: black;
+}
+
+.sign-up-form {
+  padding: 30px;
+  position: absolute;
+  top: 65%;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.sign-up-form input {
+  padding: 10px;
+  color: black;
+  width: 332px;
+  height: 50px;
+}
+
+.sign-up-form button {
+  width: 100px;
+  padding: 11.5px;
+  background-color: crimson;
+  height: 50px;
+  color: white;
+  border: none;
+}
+
+.menus a:hover {
+  color: grey;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+  border: white solid 2px;
+}
+
+.image {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+}
+
+.image img {
+  width: 500px;
+  height: auto;
+}
